@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Flight",
+    "icon": "fa-regular fa-jet-fighter",
+    "num": 2
+  },
+  {
+    "text": "Wish",
+    "icon": "",
+    "num": 2
+  },
+  {
+    "text": "Anything",
+    "icon": "",
+    "num": 2
+  },
+  {
+    "text": "Child",
+    "icon": "",
+    "num": 1
+  },
+  {
+    "text": "Movie",
+    "icon": "",
+    "num": 2
+  },
+  {
+    "text": "Wifi",
+    "icon": "fa-solid fa-wifi",
+    "num": 5
+  },
+  {
+    "text": "Break",
+    "icon": "",
+    "num": 3
+  },
+  {
+    "text": "Bonus",
+    "icon": "",
+    "num": 3
+  }
+]
