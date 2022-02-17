@@ -23,7 +23,7 @@ async function init(val){
   draw(data,data.length);
   game = new Game(data,20,data.length)
 };
-init("../data_2021.json");
+init("./data_2021.json");
 
 // Event Listners
 pressBtn.addEventListener("click",()=>{
@@ -49,7 +49,7 @@ pointer.addEventListener("transitionend",()=>{
 
 btn_2021.addEventListener("click",()=>{
   console.log('2021')
-  init("../data_2021.json");
+  init("./data_2021.json");
 
 })
 btn_2022.addEventListener("click",()=>{
