@@ -2,7 +2,6 @@
 @import "global.scss";
 
 .container {
-  // border: 1px solid yellow;
   @include box(540px);
 }
 
@@ -10,7 +9,7 @@
   @include box(100%, 300px);
   @include posAbs(50%, 0%);
   @include flex(space-between, center);
-  transform: translatey(-50%);
+  transform: translateY(-50%);
   background-color: $color-blue;
   padding: 20px;
   color: white;
@@ -18,7 +17,7 @@
 
   .info-text,
   .info-result {
-    width: 300px;
+    width: 25%;
     text-transform: uppercase;
     z-index: 50;
   }
@@ -27,12 +26,22 @@
   }
   .info-result {
     font-size: 40px;
+    text-align: right;
     h3 {
       margin-bottom: 24px;
     }
     #selected-present {
+      display: block;
       color: $color-pink;
       font-weight: 700;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .banner {
+    top: 85%;
+    .info-result {
+      font-size: 32px;
     }
   }
 }
@@ -40,6 +49,9 @@
 #wheel {
   transform: rotate(-22.5deg);
   z-index: 0;
+  &.new {
+    transform: rotate(9deg);
+  }
 }
 .wheel-frame,
 .pointer,
@@ -68,6 +80,7 @@
 
 .wheel-frame {
   top: -7px;
+  left: -1px;
   pointer-events: none;
 }
 
@@ -79,6 +92,9 @@
     flex-direction: column;
     i {
       @include box(64px);
+    }
+    h5.new {
+      margin-top: 48px;
     }
     span {
       margin-top: 8px;

@@ -726,8 +726,8 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transform: translatey(-50%);
-          transform: translatey(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   background-color: #343baa;
   padding: 20px;
   color: white;
@@ -736,7 +736,7 @@ h5 {
 
 .banner .info-text,
 .banner .info-result {
-  width: 300px;
+  width: 25%;
   text-transform: uppercase;
   z-index: 50;
 }
@@ -747,6 +747,7 @@ h5 {
 
 .banner .info-result {
   font-size: 40px;
+  text-align: right;
 }
 
 .banner .info-result h3 {
@@ -754,14 +755,29 @@ h5 {
 }
 
 .banner .info-result #selected-present {
+  display: block;
   color: #ff00ba;
   font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    top: 85%;
+  }
+  .banner .info-result {
+    font-size: 32px;
+  }
 }
 
 #wheel {
   -webkit-transform: rotate(-22.5deg);
           transform: rotate(-22.5deg);
   z-index: 0;
+}
+
+#wheel.new {
+  -webkit-transform: rotate(9deg);
+          transform: rotate(9deg);
 }
 
 .wheel-frame,
@@ -805,6 +821,7 @@ h5 {
 
 .wheel-frame {
   top: -7px;
+  left: -1px;
   pointer-events: none;
 }
 
@@ -832,6 +849,10 @@ h5 {
 .icon-group li i {
   width: 64px;
   height: 64px;
+}
+
+.icon-group li h5.new {
+  margin-top: 48px;
 }
 
 .icon-group li span {

@@ -1,82 +1,82 @@
 [
   {
-    "label":1,
+    "label":"1",
     "num": 2
   },
   {
-    "label":2,
+    "label":"2",
+    "num": 1
+  },
+  {
+    "label":"3",
+    "num": 1
+  },
+  {
+    "label":"4",
+    "num": 1
+  },
+  {
+    "label":"5",
+    "num": 1
+  },
+  {
+    "label":"6",
+    "num": 1
+  },
+  {
+    "label":"7",
+    "num": 1
+  },
+  {
+    "label":"8",
+    "num": 1
+  },
+  {
+    "label":"9",
+    "num": 1
+  },
+  {
+    "label":"10",
+    "num": 3
+  },
+  {
+    "label":"11",
     "num": 2
   },
   {
-    "label":3,
+    "label":"12",
     "num": 2
   },
   {
-    "label":4,
+    "label":"13",
     "num": 2
   },
   {
-    "label":5,
+    "label":"14",
     "num": 2
   },
   {
-    "label":6,
+    "label":"15",
     "num": 2
   },
   {
-    "label":7,
+    "label":"16",
     "num": 2
   },
   {
-    "label":8,
-    "num": 2
+    "label":"17",
+    "num": 5
   },
   {
-    "label":9,
-    "num": 2
+    "label":"18",
+    "num": 50
   },
   {
-    "label":10,
-    "num": 2
+    "label":"19",
+    "num": 10
   },
   {
-    "label":11,
-    "num": 2
-  },
-  {
-    "label":12,
-    "num": 2
-  },
-  {
-    "label":13,
-    "num": 2
-  },
-  {
-    "label":14,
-    "num": 2
-  },
-  {
-    "label":15,
-    "num": 2
-  },
-  {
-    "label":16,
-    "num": 2
-  },
-  {
-    "label":17,
-    "num": 2
-  },
-  {
-    "label":18,
-    "num": 2
-  },
-  {
-    "label":19,
-    "num": 2
-  },
-  {
-    "label":20,
-    "num": 2
+    "label":"20",
+    "num": 60
   }
 ]

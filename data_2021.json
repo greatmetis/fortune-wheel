@@ -1,41 +1,41 @@
 [
   {
-    "text": "Flight",
+    "label": "Flight",
     "icon": "fa-regular fa-jet-fighter",
     "num": 2
   },
   {
-    "text": "Wish",
+    "label": "Wish",
     "icon": "",
     "num": 2
   },
   {
-    "text": "Anything",
+    "label": "Anything",
     "icon": "",
     "num": 2
   },
   {
-    "text": "Child",
+    "label": "Child",
     "icon": "",
     "num": 1
   },
   {
-    "text": "Movie",
+    "label": "Movie",
     "icon": "",
     "num": 2
   },
   {
-    "text": "Wifi",
+    "label": "Wifi",
     "icon": "fa-solid fa-wifi",
     "num": 5
   },
   {
-    "text": "Break",
+    "label": "Break",
     "icon": "",
     "num": 3
   },
   {
-    "text": "Bonus",
+    "label": "Bonus",
     "icon": "",
     "num": 3
   }
