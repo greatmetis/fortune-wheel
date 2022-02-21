@@ -59,7 +59,6 @@ pointer.addEventListener("transitionend",()=>{
     game.isEnd = true
   }
   game.showResult()
-  iconSingle[0].classList.add("selected")
   btn_2021.disabled = false
   btn_2022.disabled = false
   btn_reset.disabled = false
