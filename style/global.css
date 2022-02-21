@@ -344,10 +344,6 @@ template {
   position: relative;
 }
 
-ul li {
-  list-style: none;
-}
-
 body,
 html {
   width: 100vw;
@@ -365,8 +361,12 @@ html {
   font-family: Helvetica, sans-serif, Arial;
 }
 
-h5 {
-  font-size: 24px;
-  margin-bottom: 8px;
+ul li {
+  list-style: none;
+}
+
+.container {
+  width: 540px;
+  height: 540px;
 }
 /*# sourceMappingURL=global.css.map */

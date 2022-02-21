@@ -5,8 +5,6 @@ const colors = {
   pink:"#FF00BA"
 };
 
-// FIXME: unable to redraw when selecting different year
-
 // init canvas setting
 const canvas = document.getElementById('wheel');
 const ctx = canvas.getContext('2d');
@@ -27,7 +25,6 @@ ctx.fillPie = function(x,y,r,start,qty){
 };
 
 const iconGroup = document.querySelector(".icon-group");
-// iconGroup.style.transform= "rotate(90deg)"
 function insertContent(data,qty,year){
   let rotate = 360 / qty
   iconGroup.innerHTML = ''
@@ -35,19 +32,19 @@ function insertContent(data,qty,year){
       let html = ''
       if(year == 2021){
         html = `
-        <i class="${item.icon}"></i>
+        <i class="icon ${item.icon}"></i>
         <h5>${item.label}</h5>
-        <span>${item.num}</span>
+        <span class="present-qty">${item.num}</span>
         `
       }else{
         html = `
-        <h5 class="new">${item.label}</h5>
-        <span >${item.num}</span>`
+        <h5>${item.label}</h5>
+        <span class="present-qty">${item.num}</span>`
       }
       let newContent = document.createElement("li")
       newContent.innerHTML = html
       iconGroup.append(newContent)
-      newContent.style.transform = `rotate(${index*rotate}deg)` 
+      newContent.style.transform = `rotate(${index*rotate}deg)`
     })
 };
 

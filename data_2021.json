@@ -1,42 +1,42 @@
 [
   {
     "label": "Flight",
-    "icon": "fa-regular fa-jet-fighter",
+    "icon": "fas fa-fighter-jet",
     "num": 2
   },
   {
-    "label": "Wish",
-    "icon": "",
+    "label": "Coffee",
+    "icon": "fas fa-mug-hot",
     "num": 2
   },
   {
     "label": "Anything",
-    "icon": "",
+    "icon": "fas fa-star",
     "num": 2
   },
   {
-    "label": "Child",
-    "icon": "",
+    "label": "Sick Leave",
+    "icon": "fas fa-hand-holding-medical",
     "num": 1
   },
   {
     "label": "Movie",
-    "icon": "",
+    "icon": "fas fa-film",
     "num": 2
   },
   {
     "label": "Wifi",
-    "icon": "fa-solid fa-wifi",
+    "icon": "fas fa-wifi",
     "num": 5
   },
   {
     "label": "Break",
-    "icon": "",
+    "icon": "far fa-clock",
     "num": 3
   },
   {
     "label": "Bonus",
-    "icon": "",
+    "icon": "fas fa-coins",
     "num": 3
   }
 ]

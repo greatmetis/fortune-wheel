@@ -24,7 +24,7 @@ $color-pink: #ff00ba;
   top: $t;
   left: $l;
 }
-
+// ====== Global styles ====== //
 *,
 *::before,
 *::after {
@@ -33,9 +33,7 @@ $color-pink: #ff00ba;
   padding: 0;
   position: relative;
 }
-ul li {
-  list-style: none;
-}
+
 body,
 html {
   @include box(100vw, 100vh);
@@ -44,7 +42,9 @@ html {
   font-family: Helvetica, sans-serif, Arial;
 }
 
-h5 {
-  font-size: 24px;
-  margin-bottom: 8px;
+ul li {
+  list-style: none;
+}
+.container {
+  @include box(540px);
 }

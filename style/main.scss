@@ -1,9 +1,4 @@
-@import "reset.scss";
 @import "global.scss";
-
-.container {
-  @include box(540px);
-}
 
 .banner {
   @include box(100%, 300px);
@@ -61,6 +56,7 @@
 }
 .pointer {
   transform-origin: center;
+  user-select: none;
   span {
     @include posAbs(50%, 50%);
     transform: translate(-50%, -50%);
@@ -86,17 +82,16 @@
 
 .icon-group {
   li {
-    @include posAbs;
-    @include box(100%);
+    @include posAbs(7%, 7%);
+    @include box(86%);
     @include flex(start, center);
     flex-direction: column;
-    i {
-      @include box(64px);
+    i.icon {
+      @include box(40px);
+      font-size: 30px;
+      text-align: center;
     }
-    h5.new {
-      margin-top: 48px;
-    }
-    span {
+    span.present-qty {
       margin-top: 8px;
       font-size: 14px;
       padding: 8px;
@@ -104,27 +99,49 @@
       font-weight: 700;
     }
   }
-}
-.icon-group {
-  li:nth-child(odd) {
-    h5 {
-      color: $color-blue--dark;
+  &.new {
+    li {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
-    span {
-      background-color: $color-blue--dark;
-      color: $color-pink--light;
+    h5 {
+      margin-top: 48px;
+      font-size: 24px;
     }
   }
 }
 
 .icon-group {
+  li:nth-child(odd) {
+    h5 {
+      color: $color-blue--dark;
+    }
+    i.icon {
+      color: $color-blue--dark;
+    }
+    span.present-qty {
+      background-color: $color-blue--dark;
+      color: $color-pink--light;
+    }
+  }
   li:nth-child(even) {
     h5 {
       color: $color-pink--light;
     }
-    span {
+    i.icon {
+      color: $color-pink--light;
+    }
+    span.present-qty {
       color: $color-blue--dark;
       background-color: $color-pink--light;
+    }
+  }
+  li.selected {
+    h5,
+    i.icon {
+      color: white;
     }
   }
 }
@@ -132,6 +149,7 @@
 .selectors {
   @include posAbs;
   padding: 40px;
+  user-select: none;
 
   button {
     box-shadow: 2px 5px 5px rgba($color-pink--light, 0.2);
